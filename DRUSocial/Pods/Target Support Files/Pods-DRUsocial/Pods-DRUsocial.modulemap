@@ -1,0 +1,6 @@
+framework module Pods_DRUsocial {
+  umbrella header "Pods-DRUsocial-umbrella.h"
+
+  export *
+  module * { export * }
+}

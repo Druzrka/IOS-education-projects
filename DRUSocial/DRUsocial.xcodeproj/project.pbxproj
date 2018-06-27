@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FAD49CC4DA44D6DDE14A33 /* Pods_DRUsocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE4C22CB39C3535FC1B604A /* Pods_DRUsocial.framework */; };
+		A539BD6620BFD31900E6A452 /* ViewWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6520BFD31900E6A452 /* ViewWithShadow.swift */; };
+		A539BD6820BFDE2500E6A452 /* CIrcularImageWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6720BFDE2500E6A452 /* CIrcularImageWithShadow.swift */; };
+		A539BD6A20BFDF8900E6A452 /* FieldWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6920BFDF8900E6A452 /* FieldWithShadow.swift */; };
+		A539BD6C20BFE0B100E6A452 /* ButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6B20BFE0B100E6A452 /* ButtonWithShadow.swift */; };
+		A539BD7020BFF99600E6A452 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6F20BFF99600E6A452 /* PostTableViewCell.swift */; };
+		A539BD7220BFFB1500E6A452 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7120BFFB1500E6A452 /* Constants.swift */; };
+		A539BD7620BFFBDD00E6A452 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7520BFFBDD00E6A452 /* UIViewExtension.swift */; };
+		A539BD7820BFFC0E00E6A452 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7720BFFC0E00E6A452 /* UIImageViewExtension.swift */; };
+		A539BD7F20C0697A00E6A452 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7E20C0697A00E6A452 /* DataService.swift */; };
+		A57436722069779E00D98299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57436672069779E00D98299 /* AppDelegate.swift */; };
+		A57436732069779E00D98299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57436682069779E00D98299 /* Assets.xcassets */; };
+		A57436742069779E00D98299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57436692069779E00D98299 /* LaunchScreen.storyboard */; };
+		A57436752069779E00D98299 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A574366B2069779E00D98299 /* Authorization.storyboard */; };
+		A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A582740620697D0500AF2684 /* Default-568h@2x.png */; };
+		A5827409206981E500AF2684 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5827408206981E500AF2684 /* AuthorizationViewController.swift */; };
+		A5B6930C209F431F00954477 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B6930B209F431F00954477 /* Feed.storyboard */; };
+		A5B6930E209F434200954477 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6930D209F434200954477 /* FeedViewController.swift */; };
+		A5BF35AF20C1650400618F1A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF35AE20C1650400618F1A /* Post.swift */; };
+		A5D0E2AE209E0DC1004A1672 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0E2AD209E0DC1004A1672 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CEEA6CAF1ED709F6696960E /* Pods-DRUsocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRUsocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial.debug.xcconfig"; sourceTree = "<group>"; };
+		588CD31E96CE6492F4697657 /* Pods-DRUsocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRUsocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial.release.xcconfig"; sourceTree = "<group>"; };
+		A539BD6520BFD31900E6A452 /* ViewWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewWithShadow.swift; path = DRUsocial/View/Custom/ViewWithShadow.swift; sourceTree = SOURCE_ROOT; };
+		A539BD6720BFDE2500E6A452 /* CIrcularImageWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIrcularImageWithShadow.swift; sourceTree = "<group>"; };
+		A539BD6920BFDF8900E6A452 /* FieldWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldWithShadow.swift; sourceTree = "<group>"; };
+		A539BD6B20BFE0B100E6A452 /* ButtonWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithShadow.swift; sourceTree = "<group>"; };
+		A539BD6F20BFF99600E6A452 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = DRUSocial/View/Cells/PostTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A539BD7120BFFB1500E6A452 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = DRUSocial/Constants.swift; sourceTree = SOURCE_ROOT; };
+		A539BD7520BFFBDD00E6A452 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = DRUSocial/Extenstions/UIViewExtension.swift; sourceTree = SOURCE_ROOT; };
+		A539BD7720BFFC0E00E6A452 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		A539BD7E20C0697A00E6A452 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = DRUSocial/Services/DataService.swift; sourceTree = SOURCE_ROOT; };
+		A57436672069779E00D98299 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57436682069779E00D98299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DRUSocial/Assets.xcassets; sourceTree = "<group>"; };
+		A574366A2069779E00D98299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A574366C2069779E00D98299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
+		A574366F2069779E00D98299 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DRUSocial/Info.plist; sourceTree = "<group>"; };
+		A582740620697D0500AF2684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5827408206981E500AF2684 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		A5B6930B209F431F00954477 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Feed.storyboard; path = DRUSocial/Storyboards/Feed.storyboard; sourceTree = SOURCE_ROOT; };
+		A5B6930D209F434200954477 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = DRUSocial/Controller/FeedViewController.swift; sourceTree = SOURCE_ROOT; };
+		A5BF35AE20C1650400618F1A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = DRUSocial/Model/Post.swift; sourceTree = SOURCE_ROOT; };
+		A5D0E2AD209E0DC1004A1672 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5F9C54520643B9400906E24 /* DRUsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRUsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.release.xcconfig"; sourceTree = "<group>"; };
+		CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.debug.xcconfig"; sourceTree = "<group>"; };
+		E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE4C22CB39C3535FC1B604A /* Pods_DRUsocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRUsocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F9C54220643B9400906E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAD49CC4DA44D6DDE14A33 /* Pods_DRUsocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A539BD6D20BFF96000E6A452 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD6F20BFF99600E6A452 /* PostTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A539BD6E20BFF97300E6A452 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD6520BFD31900E6A452 /* ViewWithShadow.swift */,
+				A539BD6720BFDE2500E6A452 /* CIrcularImageWithShadow.swift */,
+				A539BD6920BFDF8900E6A452 /* FieldWithShadow.swift */,
+				A539BD6B20BFE0B100E6A452 /* ButtonWithShadow.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A539BD7320BFFBB500E6A452 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A539BD7420BFFBBE00E6A452 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD7520BFFBDD00E6A452 /* UIViewExtension.swift */,
+				A539BD7720BFFC0E00E6A452 /* UIImageViewExtension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		A539BD7D20C0691B00E6A452 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD7E20C0697A00E6A452 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A57436662069779E00D98299 /* DRUsocial */ = {
+			isa = PBXGroup;
+			children = (
+				A57436702069779E00D98299 /* Model */,
+				A57436712069779E00D98299 /* View */,
+				A574366D2069779E00D98299 /* Controller */,
+				A539BD7D20C0691B00E6A452 /* Services */,
+				A5B6930A209F42FB00954477 /* Storyboards */,
+				A539BD7420BFFBBE00E6A452 /* Extenstions */,
+				A539BD7320BFFBB500E6A452 /* Protocols */,
+				A57436672069779E00D98299 /* AppDelegate.swift */,
+				A57436682069779E00D98299 /* Assets.xcassets */,
+				A5D0E2AD209E0DC1004A1672 /* GoogleService-Info.plist */,
+				A574366F2069779E00D98299 /* Info.plist */,
+				A539BD7120BFFB1500E6A452 /* Constants.swift */,
+			);
+			path = DRUsocial;
+			sourceTree = "<group>";
+		};
+		A574366D2069779E00D98299 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5827408206981E500AF2684 /* AuthorizationViewController.swift */,
+				A5B6930D209F434200954477 /* FeedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A57436702069779E00D98299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF35AE20C1650400618F1A /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A57436712069779E00D98299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD6E20BFF97300E6A452 /* Custom */,
+				A539BD6D20BFF96000E6A452 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5B6930A209F42FB00954477 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A57436692069779E00D98299 /* LaunchScreen.storyboard */,
+				A574366B2069779E00D98299 /* Authorization.storyboard */,
+				A5B6930B209F431F00954477 /* Feed.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A5F9C53C20643B9400906E24 = {
+			isa = PBXGroup;
+			children = (
+				A582740620697D0500AF2684 /* Default-568h@2x.png */,
+				A57436662069779E00D98299 /* DRUsocial */,
+				A5F9C54620643B9400906E24 /* Products */,
+				EA9FEBBE3514C8D60368E1A6 /* Pods */,
+				EA691130DEA73291E21BF49B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F9C54620643B9400906E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F9C54520643B9400906E24 /* DRUsocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA691130DEA73291E21BF49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */,
+				EBE4C22CB39C3535FC1B604A /* Pods_DRUsocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9FEBBE3514C8D60368E1A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */,
+				BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */,
+				2CEEA6CAF1ED709F6696960E /* Pods-DRUsocial.debug.xcconfig */,
+				588CD31E96CE6492F4697657 /* Pods-DRUsocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F9C54420643B9400906E24 /* DRUsocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F9C55720643B9400906E24 /* Build configuration list for PBXNativeTarget "DRUsocial" */;
+			buildPhases = (
+				EA6B2D6244F791454F2EE9D3 /* [CP] Check Pods Manifest.lock */,
+				A5F9C54120643B9400906E24 /* Sources */,
+				A5F9C54220643B9400906E24 /* Frameworks */,
+				A5F9C54320643B9400906E24 /* Resources */,
+				EBF0A044692E2FEF33A7EC9F /* [CP] Embed Pods Frameworks */,
+				FB29A9B4B3600F442D4C5709 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRUsocial;
+			productName = SocialNet;
+			productReference = A5F9C54520643B9400906E24 /* DRUsocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F9C53D20643B9400906E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Захар";
+				TargetAttributes = {
+					A5F9C54420643B9400906E24 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5F9C54020643B9400906E24 /* Build configuration list for PBXProject "DRUsocial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F9C53C20643B9400906E24;
+			productRefGroup = A5F9C54620643B9400906E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F9C54420643B9400906E24 /* DRUsocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F9C54320643B9400906E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57436752069779E00D98299 /* Authorization.storyboard in Resources */,
+				A57436732069779E00D98299 /* Assets.xcassets in Resources */,
+				A5B6930C209F431F00954477 /* Feed.storyboard in Resources */,
+				A5D0E2AE209E0DC1004A1672 /* GoogleService-Info.plist in Resources */,
+				A57436742069779E00D98299 /* LaunchScreen.storyboard in Resources */,
+				A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA6B2D6244F791454F2EE9D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DRUsocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF0A044692E2FEF33A7EC9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB29A9B4B3600F442D4C5709 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F9C54120643B9400906E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A539BD7620BFFBDD00E6A452 /* UIViewExtension.swift in Sources */,
+				A5827409206981E500AF2684 /* AuthorizationViewController.swift in Sources */,
+				A539BD6620BFD31900E6A452 /* ViewWithShadow.swift in Sources */,
+				A539BD7F20C0697A00E6A452 /* DataService.swift in Sources */,
+				A5BF35AF20C1650400618F1A /* Post.swift in Sources */,
+				A539BD6A20BFDF8900E6A452 /* FieldWithShadow.swift in Sources */,
+				A539BD7020BFF99600E6A452 /* PostTableViewCell.swift in Sources */,
+				A539BD6820BFDE2500E6A452 /* CIrcularImageWithShadow.swift in Sources */,
+				A539BD7820BFFC0E00E6A452 /* UIImageViewExtension.swift in Sources */,
+				A539BD6C20BFE0B100E6A452 /* ButtonWithShadow.swift in Sources */,
+				A5B6930E209F434200954477 /* FeedViewController.swift in Sources */,
+				A57436722069779E00D98299 /* AppDelegate.swift in Sources */,
+				A539BD7220BFFB1500E6A452 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A57436692069779E00D98299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A574366A2069779E00D98299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A574366B2069779E00D98299 /* Authorization.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A574366C2069779E00D98299 /* Base */,
+			);
+			name = Authorization.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F9C55520643B9400906E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5F9C55620643B9400906E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F9C55820643B9400906E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEEA6CAF1ED709F6696960E /* Pods-DRUsocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7AZW33UG9;
+				INFOPLIST_FILE = "$(SRCROOT)/DRUSocial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zakhar.DRUsocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F9C55920643B9400906E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588CD31E96CE6492F4697657 /* Pods-DRUsocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7AZW33UG9;
+				INFOPLIST_FILE = "$(SRCROOT)/DRUSocial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zakhar.DRUsocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F9C54020643B9400906E24 /* Build configuration list for PBXProject "DRUsocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F9C55520643B9400906E24 /* Debug */,
+				A5F9C55620643B9400906E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F9C55720643B9400906E24 /* Build configuration list for PBXNativeTarget "DRUsocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F9C55820643B9400906E24 /* Debug */,
+				A5F9C55920643B9400906E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F9C53D20643B9400906E24 /* Project object */;
+}
